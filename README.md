@@ -4,11 +4,6 @@ Este repositorio contiene las soluciones para el Desafío de Datos de Mercado Li
 
 ---
 
-## Repositorio Publico GitHub
-Puedes consultar el código completo en el [repositorio oficial de GitHub](https://github.com/daorozco16/Mercado_Libre_DataSec_Challenge).
-
----
-
 ## Challenge 1 — Minesweeper Number of Neighbouring Mines
 
 **Archivo:** `solution_minesweeper.py`
