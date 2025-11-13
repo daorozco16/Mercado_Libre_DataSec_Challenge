@@ -98,7 +98,7 @@ func main() {
 	// Se usa los headers y/o encabezados para agregar informacion
 	// Se agrega el token de Hugging Face
 	// Pongo de esta manera el Token por que es un entorno local y no supe como pasarla como variable de entorno o realizar un cifrado
-	TKAuthor := "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"
+	TKAuthor := "******"
 	req.Header.Set("Authorization", "Bearer "+TKAuthor) // Tipo de autorizacion que se esta enviando o validando
 	req.Header.Set("Content-Type", "application/json")  // Tipo de formato del contenido
 
