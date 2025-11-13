@@ -98,9 +98,9 @@ func main() {
 	// Se usa los headers y/o encabezados para agregar informacion
 	// Se agrega el token de Hugging Face
 	// Pongo de esta manera el Token por que es un entorno local y no supe como pasarla como variable de entorno o realizar un cifrado
-	API_TOKEN := "******"
-	req.Header.Set("Authorization", "Bearer "+API_TOKEN) // Tipo de autorizacion que se esta enviando o validando
-	req.Header.Set("Content-Type", "application/json")   // Tipo de formato del contenido
+	TOKEN := "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"
+	req.Header.Set("Authorization", "Bearer "+TOKEN)   // Tipo de autorizacion que se esta enviando o validando
+	req.Header.Set("Content-Type", "application/json") // Tipo de formato del contenido
 
 	// Se crea un cliente HTTP y se envia la peticion
 	client := &http.Client{}    // Esta linea segun documentacion se usa para crear un objeto y pasarle la direccion
