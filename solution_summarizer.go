@@ -99,8 +99,8 @@ func main() {
 	// Se agrega el token de Hugging Face
 	// Pongo de esta manera el Token por que es un entorno local y no supe como pasarla como variable de entorno o realizar un cifrado
 
-	req.Header.Set("Authorization", "Bearer "+TKAuthor) // Tipo de autorizacion que se esta enviando o validando
-	req.Header.Set("Content-Type", "application/json")  // Tipo de formato del contenido
+	// req.Header.Set("Authorization", "Bearer "+TKAuthor) // Tipo de autorizacion que se esta enviando o validando
+	req.Header.Set("Content-Type", "application/json") // Tipo de formato del contenido
 
 	// Se crea un cliente HTTP y se envia la peticion
 	client := &http.Client{}    // Esta linea segun documentacion se usa para crear un objeto y pasarle la direccion
